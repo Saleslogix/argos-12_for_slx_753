@@ -37,10 +37,11 @@ This module demonstrates how to make the Mobile Saleslogix 1.2 application compa
 
 1\.  Make sure you're running v1.2 of both argos-sdk and argos-saleslogix
 	if you've installed both from their Git repository source, using the command line checkout v1.2:
-	cd ..\argos-sdk
-	git checkout 1.2
-	cd ..\products\argos-saleslogix
-	git checkout 1.2
+
+    cd ..\argos-sdk
+    git checkout 1.2
+    cd ..\products\argos-saleslogix
+    git checkout 1.2
 
 2\.  Follow the instructions for running the argos-saleslogix project in debug mode in that project's README.
 

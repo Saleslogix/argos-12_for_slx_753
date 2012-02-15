@@ -1,8 +1,8 @@
-Ext.namespace("Mobile.SalesLogix");
+Ext.namespace("Mobile.Slx753");
 
-Mobile.SalesLogix.ApplicationModule = Ext.extend(Sage.Platform.Mobile.ApplicationModule, {
+Mobile.Slx753.ApplicationModule = Ext.extend(Sage.Platform.Mobile.ApplicationModule, {
     loadCustomizations: function() {
-        Mobile.SalesLogix.ApplicationModule.superclass.loadCustomizations.apply(this, arguments);
+        Mobile.Slx753.ApplicationModule.superclass.loadCustomizations.apply(this, arguments);
 
         Ext.override(Mobile.SalesLogix.Application, {
             authenticateUser: function(credentials, options) {
